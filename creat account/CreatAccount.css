@@ -1,0 +1,91 @@
+body {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    direction: ltr;
+}
+
+.registery .text {
+    padding: 17px 0px 10px 0px;
+    background-color: #F6F6F6;
+    text-align: center;
+    border: 1px #C1C1C1 solid;
+}
+
+.registery .text h2,
+p {
+    color: black;
+}
+
+.registery .text p {
+    font-size: 14px;
+}
+
+.registery .text p span {
+    color: #9D7938;
+}
+
+.registery .form form {
+    text-align: center;
+    padding: 50px 30px 20px;
+    border: 1px #C1C1C1 solid;
+    border-radius: 3px;
+    margin-top: 100px;
+    width: 100%;
+    box-shadow: 0px 0px 5px #80808073;
+}
+
+.registery .form form input {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 20px 0px 20px 19px;
+}
+
+.registery form .CREATE {
+    margin-bottom: 14px;
+}
+
+.registery .CREATE button {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 80%;
+    height: 60px;
+    color: #9D7938;
+    background: white;
+    border: 1px #9D7938 solid;
+    border-radius: 30px;
+}
+
+.registery .CREATE button:hover {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 80%;
+    height: 60px;
+    color: white;
+    background: #9D7938;
+    border: 1px #9D7938 solid;
+    border-radius: 30px;
+}
+
+.registery .SIGN-IN button {
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    color: #8B8B8B;
+}
+
+.registery .SIGN-IN button:hover {
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    color: #8B8B8B;
+}
+
+.registery .form-col {
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0px;
+}

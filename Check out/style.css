@@ -1,0 +1,243 @@
+.checkout .title {
+  padding: 17px 0px 10px 0px;
+  background-color: #F6F6F6;
+  text-align: center;
+  border: 1px #C1C1C1 solid;
+}
+
+.checkout .title h2,
+p {
+  color: black;
+}
+
+.checkout .title p {
+  font-size: 14px;
+}
+
+.checkout .title p span {
+  color: #9D7938;
+}
+.checkout label {
+  display: block;
+  padding-bottom: 5px;
+}
+.checkout .name {
+  display: inline-block;
+}
+.checkout .first {
+  display: inline-block;
+}
+.checkout .last {
+  display: inline-block;
+}
+.checkout .form {
+  border: 1px solid #c1c1c1;
+  margin: 120px 0;
+  border-radius: 4px;
+}
+.checkout .name input {
+  margin-right: 20px;
+  width: 366px;
+  height: 52px;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+.checkout .form p {
+  padding: 10px 0px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.checkout hr {
+  color: #9d7938;
+  height: 2px !important;
+}
+.checkout .add {
+  font-size: 20px;
+}
+.checkout .add p {
+  margin-bottom: 0px;
+}
+.checkout .add select {
+  width: 370px;
+  height: 58px;
+  font-size: 12px;
+  color: #888;
+  border-color: #707070;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.checkout .add select option {
+  font-size: 14px;
+}
+.checkout .city input {
+  margin-right: 20px;
+  width: 366px;
+  height: 52px;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+.checkout .add label {
+  font-size: 14px;
+}
+
+.checkout .street input {
+  margin-right: 20px;
+  width: 366px;
+  height: 52px;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  font-size: 12px;
+}
+.checkout .phone input {
+  margin-right: 20px;
+  width: 366px;
+  height: 52px;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  font-size: 12px;
+}
+.checkout .check label {
+  display: inline-block;
+}
+.checkout .check label a{
+  color: black;
+}
+.checkout div button {
+  width: 172px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 3px;
+  text-align: center;
+}
+.checkout .butt {
+  text-align: right;
+  display: inline-block;
+  float: right;
+}
+.checkout .firstbu {
+  background-color: #fff;
+  color: #9d7938;
+  border: 1px solid #9d7938;
+}
+.checkout .secondbu {
+  color: #fff;
+  background-color: #9d7938;
+  border: 1px solid #c1c1c1;
+  margin-bottom: 20px;
+}
+.checkout .product {
+  border: 1px solid #c1c1c1;
+  margin: 120px 0;
+  border-radius: 4px;
+  width: 260px;
+  height: auto;
+  padding: 8px;
+}
+.checkout .product p {
+  padding: 5px 17px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.checkout .product .pro-check {
+  padding: 5px;
+  border: 1px solid rgb(157, 121, 56, 0.28);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.checkout .product .pro-check img {
+  display: inline-block;
+  width: 26%;
+}
+
+.checkout .product .pro-check .pro-check-title {
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+  top: 10px;
+}
+.checkout .product .pro-check .pro-check-title p {
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.checkout .product .pro-check .pro-check-title .pro-check-price {
+  padding: 0px 10px;
+}
+.checkout .product .pro-check .pro-check-title .pro-check-price span:nth-child(2) {
+  float: right;
+}
+/*************gift card*************/
+.checkout .product .gift-card .gift-card-title {
+  position: relative;
+  display: inline-block;
+}
+.checkout .product .gift-card .gift-card-title p {
+  font-size: 16px;
+  margin: 5px;
+  padding: 2px;
+}
+/* .product .gift-card .gift-card-title span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #9d7938; 
+}*/
+.checkout .gift-card-title .search-container form input{
+    width: 247px;
+    height: 48px;
+
+}
+.checkout .btn {
+  border-left-width: 0;
+  left: -2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  background-color: #fff!important;
+  color: #000; 
+   border-radius: 4px;
+   border: 1px solid #9d7938;
+   width:fit-content;
+}
+
+
+/* Stop the glowing blue shadow */
+.checkout .form-control:focus {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-color: #cccccc;
+}
+
+.checkout .input-group-btn:last-child>.btn{
+  margin-left: 0;
+}
+
+.checkout .m-t-30{
+  margin-top:30px;
+}
+
+.checkout .btn:hover{
+  background-color:#fff;
+  color: #000!important;
+  border: 1px solid #9d7938!important;
+}
+.checkout .subtotal .sub1{
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  color: #c1c1c1;
+}
+.checkout .subtotal .sub2{
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  color: #000000;
+}
+
+

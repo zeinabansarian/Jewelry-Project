@@ -1,0 +1,79 @@
+body {
+  margin-top: 10px;
+  direction: ltr;
+}
+
+.about .title {
+  padding: 17px 0px 10px 0px;
+  background-color: #F6F6F6;
+  text-align: center;
+  border: 1px #C1C1C1 solid;
+}
+
+.about .title h2,
+p {
+  color: black;
+}
+
+.about .title p {
+  font-size: 14px;
+}
+
+.about .title p span {
+  color: #9D7938;
+}
+.about .main img {
+  width: 70%;
+  height: auto;
+}
+.about .main {
+  margin-top: 55px;
+  padding-bottom: 120px;
+}
+.about .main .titr h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1c1c1c;
+}
+.about .main .titr span {
+  color: #9d7938;
+}
+.about .titr p {
+  color: #1c1c1c;
+  font-size: 18px;
+}
+.about .heading {
+  text-align: center;
+  padding-top: 20px;
+}
+.about .heading h5 {
+  color: #9d7938;
+}
+.about .heading h5 p {
+  padding-top: 14px;
+}
+.about .bottom-main {
+  background-color: #ececec;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+.about .bottom-main img {
+  width: 77px;
+  height: 77px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.about .bottom-main .row p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .about .main h5,
+  p {
+    text-align: center;
+    padding-top: 20px;
+  }
+}
